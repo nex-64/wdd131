@@ -1,0 +1,40 @@
+#content{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.5em;
+
+}
+
+h1, h4{
+    text-align: center;
+    letter-spacing: 0.1em
+}
+
+p{
+    line-height: 1.5;
+}
+ol{
+    line-height: 1.5;
+
+}
+li{
+    margin: 20px 0px
+}
+
+#logo{
+    width: 25%;
+    display:block;
+    text-align: center;
+}
+img{
+    margin: 50px auto;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+h4{
+    line-height: 1;
+    margin-bottom: 2px;
+    color: #0165a3;
+}
