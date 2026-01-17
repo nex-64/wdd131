@@ -2,6 +2,8 @@
     width: 40%;
     margin: 0 auto;
     font-size: 1.5em;
+    border: 1px solid black;
+    padding: 5%
 
 }
 
@@ -38,3 +40,4 @@ h4{
     margin-bottom: 2px;
     color: #0165a3;
 }
+
