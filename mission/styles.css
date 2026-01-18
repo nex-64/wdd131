@@ -1,13 +1,12 @@
-#content{
-    width: 40%;
+main{
+    width: 800px;
     margin: 0 auto;
     font-size: 1.5em;
     border: 1px solid black;
-    padding: 5%
+    padding: 80px 100px
 
 }
-
-h1, h4{
+h1{
     text-align: center;
     letter-spacing: 0.1em
 }
@@ -15,14 +14,15 @@ h1, h4{
 p{
     line-height: 1.5;
 }
+em{
+    line-height: 4
+}
 ol{
     line-height: 1.5;
-
 }
 li{
     margin: 20px 0px
 }
-
 #logo{
     width: 25%;
     display:block;
@@ -35,9 +35,12 @@ hr{
     margin-top: 0;
     margin-bottom: 60px;
 }
-h4{
+h2{
     line-height: 1;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
     color: #0165a3;
+    font-size: 0.9em;
+    text-align: center;
+    letter-spacing: 0.15em;
 }
 
