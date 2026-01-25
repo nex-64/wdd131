@@ -24,26 +24,9 @@ main{
     margin: 0 auto
 
 }
-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  padding: 7px;
-  margin: 20px;
-  box-shadow: 5px 5px 20px black
-}  
 h1 {
     text-align: center;
     font-size: 3em;
-}
-h2 {
-    color: black;
-    text-align: center;
-    font-size: 2.6em;
-    
-}
-p{
-    font-size: 1.5em
 }
 nav a {
     padding: 20px;
@@ -61,6 +44,23 @@ nav a:hover {
     background-color: transparent;
     color: white;
     font-size: 2em
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 2.6em;
+    
+}
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding: 7px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px black
+}  
+p{
+    font-size: 1.5em
 }
 footer {
     text-align: center;
