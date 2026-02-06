@@ -1,0 +1,27 @@
+header{
+    border-bottom: 3px solid #fed;
+    text-align: center;
+}
+nav{
+    border-top: 3px solid #fed;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    color: #d25;
+    line-height: 4;
+    margin-right: 50px;
+}
+#book-list{
+    border-top: 3px solid #fed;
+    margin-top: 60px;
+}
+.book{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0 60px;
+    line-height: 1;
+}
+.book p{
+    text-align: right;
+}
