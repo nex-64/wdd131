@@ -1,27 +1,93 @@
+body{
+    height: 100%
+}
 header{
     border-bottom: 3px solid #fed;
     text-align: center;
 }
+h1{
+    font-size: 2.5em
+}
 nav{
     border-top: 3px solid #fed;
     text-align: right;
+    font-family: sans-serif
 }
 nav a{
+    flex: 1;
     text-decoration: none;
     color: #d25;
-    line-height: 4;
+    line-height: 3;
     margin-right: 50px;
+    font-size: 1.5em;
+}
+main{
+    border-top: 3px solid #fed;
+    margin: 60px 0;
+}
+h2{
+    color: #d25;
+    font-size: 2em
+}
+p{
+    font-family: sans-serif;
+    line-height: 1
 }
 #book-list{
-    border-top: 3px solid #fed;
-    margin-top: 60px;
+    justify-self: center;
+    align-self: center;
 }
 .book{
     display: grid;
-    grid-template-rows: auto;
-    padding: 0 60px;
     line-height: 1;
+    margin: 0 40px;
+    max-width: 700px;
+}
+.book img{
+    padding-left: 100px;
+    width: 200px;
+    height: auto
 }
 .book p{
+    font-size: 1.2em
+}
+.book-details{
     text-align: right;
+    line-height: 1.5;
+}
+.book-main{
+    max-width: 500px;
+    margin-right: 10vw;
+    align-self: left;
+}
+desc{
+    text-align: left;
+}
+footer{
+    border-top: 3px solid #fed;
+    height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+@media screen and (min-width: 1000px) {
+    main{
+        border-top: none;
+    }
+    .book {
+        grid-template-columns: 1fr 2fr;
+        grid-column: 2;
+        max-width: 100vw
+    }
+    .book-details{
+        padding-right: 40px;
+        border-right: 3px solid #fed
+    }
+    .book img {
+        padding-left: 250px;
+        width: 300px
+    }
+    .book-main{
+        padding-left: 40px;
+        max-width: 700px
+    }
 }
