@@ -39,4 +39,21 @@ const articles = [
 		stars: "⭐⭐⭐⭐⭐"
 	}
 ];
-                
+const bookList = document.querySelector('#book-list');
+articles.forEach(book => {
+    const article = document.createElement('article');
+    article.className = 'book'
+    let html= `<section class="book-details">
+                    <p><em>${book.date}</em></p>
+                    <p>${book.ages}</p>
+                    <p>${book.genre}</p>
+                    <p aria-label="${book.stars.length} out of 5 stars" role="img">${book.stars}</p>
+                </section>
+                <section class="book-main">
+                    <h2>${book.title}</h2>
+                    <img src=${book.imgSrc} alt=${book.imgAlt}>
+                    <p class="desc">${book.description}</p>
+                </section>`
+    article.innerHTML = html;
+    bookList.appendChild(article);
+});                

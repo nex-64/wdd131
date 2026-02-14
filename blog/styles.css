@@ -8,7 +8,7 @@ header{
     text-align: center;
 }
 h1{
-    font-size: 2.5em
+    font-size: 2.0em
 }
 nav{
     border-top: 3px solid #fed;
@@ -21,7 +21,7 @@ nav a{
     color: #d25;
     line-height: 3;
     margin-right: 50px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 main{
     border-top: 3px solid #fed;
@@ -44,7 +44,7 @@ p{
 .book{
     display: grid;
     line-height: 1;
-    margin: 0 40px;
+    margin: 0 40px 60px 40px;
     max-width: 700px;
 }
 .book img{
@@ -71,7 +71,7 @@ footer{
     border-top: 3px solid #fed;
     height: 70px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 0
 }
 @media screen and (min-width: 1000px) {
