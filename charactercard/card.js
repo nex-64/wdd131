@@ -3,7 +3,7 @@ const character = {
     class: "Swamp Beast Diplomat",
     level: 5,
     health: 100,
-    imgSrc: "https://andejuli.github.io/wdd131/character_card/snortleblat.webp",
+    imgSrc: "images/snortleblat.webp",
     imgAlt: "An alligator-like beast standing in a swampy area",
     attacked: function(){
         character.health -= 20;
