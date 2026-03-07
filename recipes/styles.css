@@ -1,26 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+body{
+    padding: 0 20px;
+    font-family: sans-serif;
+}
 header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 10px;
 }
-main{
-    font-family: sans-serif;
+hr {
+    margin: 20px 0
 }
 img{
-    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
     min-height: 0;
+    min-width: 0;
 }
 header img {
     size: auto;
     flex-basis: 100px;
-    align-self: center;
+    align-self: center; 
 }
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+}
+h1, h2 {
     font-family: "Amatic SC", sans-serif;
     font-weight: bold;
     font-style: normal;
+}
+h2 {
+    color: #0363ee;
+    font-size: 2.5em
 }
 #search {
     display: flex;
@@ -33,10 +46,12 @@ h1 {
     justify-content: space-between;
 }
 #searchbar {
+    flex: 1 1 0px;
     border: none;
     font-size: 1.2em;
+    min-width: 0;
 }
-button {
+#search button {
     flex: 0 1 50px;
     background-color: white;
     border-width: 0px 0px 0px 1px;
@@ -44,30 +59,73 @@ button {
     max-height: 100%;
     overflow: hidden;
 }
-button img {
-    max-width: 100%;
-}
 .recipe{
     border: 3px solid ;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    max-height: 400px;
     justify-content: flex-start;
     padding: 20px;
+    gap: 5px;
+    flex: 1 1 0;
 }
 .recipe img {
-    flex-basis: 400px;
-    align-self: flex-start;
+    flex: 1 0 400px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+.recipe-details {
+    min-height: 0;
+    min-width: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .tags {
-    font-weight: bold;
+    min-height: 0;
+    flex: 1 1;
+    font-size: 1.4em;
     border: 2px solid grey;
     border-radius: 2px;
     background-color: #eee;
-    align-self: flex-start;
+    width: fit-content;
+    max-height: fit-content;
     line-height: 0;
-    height: 2em;
-
+    padding: 0px 5px;
+}
+.recipe h2{
+    line-height: 0;
+    padding-top: 5px;
+}
+.desktop{
+    display: none
+}
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+    justify-content: space-between;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social a {
+    flex: 0 0 50px;
+    margin: 20px 5px
+}
+@media screen and (min-width: 700px) {
+    .desktop{
+        display: inline;
+    }
+    .recipe {
+        flex-direction: row;
+        gap: 20px
+    }
+    footer {
+        flex-direction: row;
+    }
 }
