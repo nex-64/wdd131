@@ -66,7 +66,6 @@ h2 {
     gap: 5px;
 }
 .recipe img {
-    max-width: 400px;
     flex: 0 1 auto;
 }
 .recipe-details {
@@ -116,6 +115,9 @@ footer {
     .recipe {
         flex-direction: row;
         gap: 20px
+    }
+    .recipe img {
+        flex: 1 0 400px;
     }
     footer {
         flex-direction: row;
