@@ -57,6 +57,11 @@ h2 {
     border-width: 0px 0px 0px 1px;
     overflow: hidden;
 }
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .recipe{
     border: 2px solid ;
     border-radius: 10px;
@@ -74,7 +79,7 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
 }
-.tags {
+.tags span {
     min-height: 0;
     flex: 1 1;
     font-size: 1.4em;
@@ -83,11 +88,9 @@ h2 {
     background-color: #eee;
     width: fit-content;
     max-height: fit-content;
-    line-height: 0;
     padding: 0px 5px;
 }
 .recipe h2{
-    line-height: 0;
     padding-top: 5px;
 }
 .desktop{
