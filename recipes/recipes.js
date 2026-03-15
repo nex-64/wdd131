@@ -337,7 +337,7 @@ function ratingTemplate(rating) {
 
 function recipesTemplate(recipe) {
     return ` <article class="recipe">
-                <img src=${recipe.image} alt="Apple Crisp">
+                <img src=${recipe.image} alt="An example of ${recipe.name} fully prepared">
                 <div class="recipe-details">
                     <span class="tags">
                         ${tagTemplate(recipe.tags)}
