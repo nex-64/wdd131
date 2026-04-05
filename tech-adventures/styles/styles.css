@@ -195,6 +195,22 @@ main{
     padding: 20px;
     margin: 20px
 }
+.about-me{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 5px solid var(--secondary-color);
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    max-width: 900px;
+}
+.about-me img {
+    flex: 1 1;
+    max-width: 100%;
+    border: 3px solid var(--secondary-color)
+}
 .tags {
     margin: 10px;
 }
@@ -237,6 +253,17 @@ dialog {
 }
 .hidden{
     display: none !important;
+}
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    border-top: 5px solid var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin: 0 auto;
 }
 @media screen and (min-width: 800px) {
     .desktop{

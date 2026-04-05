@@ -16,5 +16,11 @@ function handleSize(size) {
     };
 };
 
+function init() {
+    handleSize(mediaQuery);
+};
+
+init();
+
 mediaQuery.addEventListener("change", handleSize);
 menuBtn.addEventListener('click', toggleMenu);
