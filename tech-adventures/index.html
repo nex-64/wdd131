@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="ta-main.js"></script>
+    <title>Tech Adventures</title>
+</head>
+<body>
+    <header>
+        <div id="page-heading">
+            <button class="menu-btn mobile">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+            <img src="images/logo.png" alt="Tech Adventures Logo" class="logo">
+            <h1 class="desktop" id="page-title">Tech Adventures</h1>
+            <button class="search-menu mobile">
+                <img src="images/search.svg" alt="search button">
+            </button>
+        </div>
+        <nav class="hidden">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+            </ul>
+        </nav>
+        <form class="hidden" id="search" method="GET">
+            <input type="text" placeholder="Find an article" id="searchbar" name="q" required>
+            <button id="search-button" type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <h2 id="articles-heading">All Articles</h2>
+        <section id="adventure-list">
+        </section>
+        <dialog>
+            <img>
+            <button class="close-viewer">X</button>
+        </dialog>        
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
